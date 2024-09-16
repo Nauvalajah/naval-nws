@@ -1,0 +1,164 @@
+/* Global Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('/bgd.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Navbar Styling */
+  /* Navbar Styling */
+nav {
+  background-color: white;
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  width: 150%;
+  z-index: 100;
+  border-radius: 20px; /* Membuat pinggiran oval */
+  margin: 10px auto; /* Memberi jarak atas dan bawah */
+  max-width: 100%; /* Supaya tidak menyentuh tepi layar */
+}
+
+  
+  .wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .brand {
+    display: flex;
+    align-items: baseline;
+  }
+  
+  .brand .nama, .brand .akhir {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .brand  {
+    margin-left: 5px;
+    color: #000;
+    font-size: 1.5rem;
+  }
+  
+  .navigation {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+  }
+  
+  .navigation li {
+    margin-left: 20px;
+  }
+  
+  .navigation li a {
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+
+  .navigation li a i {
+    margin-right: 8px;
+  }
+  
+  .navigation li a:hover {
+    color: tomato;
+  }
+  
+  .navigation .active a {
+    color: black;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: tomato ;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  
+  .btn:hover {
+    background-color: black;
+  }
+  
+  /* News Section */
+  .latest-news {
+    padding: 50px 0;
+    background-color: white;
+    text-align: center;
+  }
+  
+  .latest-news h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+  }
+  
+  .news-grid {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .news-grid article {
+    max-width: 300px;
+  }
+  
+  .news-grid article img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  /* Footer Styling */
+  footer {
+    background-color: #000;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  footer ul li {
+    margin-left: 20px;
+  }
+  
+  footer ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  footer ul li a:hover {
+    color: #ff9800;
+  }
+
+  
+  
